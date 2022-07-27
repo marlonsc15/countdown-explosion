@@ -3,7 +3,7 @@ var check = false;
 function xequeMate() {
     if (check == false) {
         var timer1 = setInterval(function() { start() }, 1000);
-        var timer2 = setTimeout(function() { end() }, 13700);
+        var timer2 = setTimeout(function() { end() }, 13200);
         var count = 10;
         function start() {
             soundBeep();
